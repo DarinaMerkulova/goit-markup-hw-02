@@ -1,6 +1,6 @@
 body {
-  background-color: #ffffff;
-  color: #434455;
+  background-color: var(--wight-color--);
+  color: var(--primary-text-color--);
   font-family: Roboto, sans-serif;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -66,7 +66,7 @@ body {
   text-decoration: none;
 }
 .contacts .link:hover,
-.contacts.link:focus {
+.contacts .link:focus {
   color: var(--active-color--);
 }
 /*Hero*/
@@ -122,7 +122,7 @@ body {
 .team-list .title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   color: var(--secondary-text-color--);
 }
 /*Our team*/
@@ -169,7 +169,7 @@ body {
 .filter-list .title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   color: var(--secondary-text-color--);
 }
 
